@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		585FA3BA2A9D19D7005E8311 /* MarcatoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FA3B92A9D19D7005E8311 /* MarcatoApp.swift */; };
+		585FA3BE2A9D19D8005E8311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585FA3BD2A9D19D8005E8311 /* Assets.xcassets */; };
+		585FA3C12A9D19D8005E8311 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585FA3C02A9D19D8005E8311 /* Preview Assets.xcassets */; };
+		585FA3CC2A9D19D8005E8311 /* MarcatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FA3CB2A9D19D8005E8311 /* MarcatoTests.swift */; };
+		585FA3D62A9D19D8005E8311 /* MarcatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FA3D52A9D19D8005E8311 /* MarcatoUITests.swift */; };
+		585FA3D82A9D19D8005E8311 /* MarcatoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FA3D72A9D19D8005E8311 /* MarcatoUITestsLaunchTests.swift */; };
+		585FA3E52A9E3048005E8311 /* photo-1549833284-6a7df91c1f65.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 585FA3E42A9E3048005E8311 /* photo-1549833284-6a7df91c1f65.jpg */; };
+		585FA3E82AA002A2005E8311 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FA3E72AA002A2005E8311 /* Constants.swift */; };
+		585FA3EA2AA0D56E005E8311 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FA3E92AA0D56E005E8311 /* UIColor.swift */; };
+		585FA3EC2AA11194005E8311 /* NotificationBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585FA3EB2AA11194005E8311 /* NotificationBannerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		585FA3C82A9D19D8005E8311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585FA3AE2A9D19D7005E8311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585FA3B52A9D19D7005E8311;
+			remoteInfo = Marcato;
+		};
+		585FA3D22A9D19D8005E8311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 585FA3AE2A9D19D7005E8311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 585FA3B52A9D19D7005E8311;
+			remoteInfo = Marcato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		585FA3B62A9D19D7005E8311 /* Marcato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marcato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		585FA3B92A9D19D7005E8311 /* MarcatoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcatoApp.swift; sourceTree = "<group>"; };
+		585FA3BD2A9D19D8005E8311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		585FA3C02A9D19D8005E8311 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		585FA3C22A9D19D8005E8311 /* Marcato.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Marcato.entitlements; sourceTree = "<group>"; };
+		585FA3C72A9D19D8005E8311 /* MarcatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585FA3CB2A9D19D8005E8311 /* MarcatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcatoTests.swift; sourceTree = "<group>"; };
+		585FA3D12A9D19D8005E8311 /* MarcatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarcatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		585FA3D52A9D19D8005E8311 /* MarcatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcatoUITests.swift; sourceTree = "<group>"; };
+		585FA3D72A9D19D8005E8311 /* MarcatoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcatoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		585FA3E42A9E3048005E8311 /* photo-1549833284-6a7df91c1f65.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "photo-1549833284-6a7df91c1f65.jpg"; path = "../../../Downloads/photo-1549833284-6a7df91c1f65.jpg"; sourceTree = "<group>"; };
+		585FA3E62A9F00ED005E8311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		585FA3E72AA002A2005E8311 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		585FA3E92AA0D56E005E8311 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		585FA3EB2AA11194005E8311 /* NotificationBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBannerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		585FA3B32A9D19D7005E8311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585FA3C42A9D19D8005E8311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585FA3CE2A9D19D8005E8311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		585FA3AD2A9D19D7005E8311 = {
+			isa = PBXGroup;
+			children = (
+				585FA3EB2AA11194005E8311 /* NotificationBannerView.swift */,
+				585FA3E92AA0D56E005E8311 /* UIColor.swift */,
+				585FA3E72AA002A2005E8311 /* Constants.swift */,
+				585FA3B82A9D19D7005E8311 /* Marcato */,
+				585FA3CA2A9D19D8005E8311 /* MarcatoTests */,
+				585FA3D42A9D19D8005E8311 /* MarcatoUITests */,
+				585FA3B72A9D19D7005E8311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		585FA3B72A9D19D7005E8311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				585FA3B62A9D19D7005E8311 /* Marcato.app */,
+				585FA3C72A9D19D8005E8311 /* MarcatoTests.xctest */,
+				585FA3D12A9D19D8005E8311 /* MarcatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		585FA3B82A9D19D7005E8311 /* Marcato */ = {
+			isa = PBXGroup;
+			children = (
+				585FA3E62A9F00ED005E8311 /* Info.plist */,
+				585FA3B92A9D19D7005E8311 /* MarcatoApp.swift */,
+				585FA3BD2A9D19D8005E8311 /* Assets.xcassets */,
+				585FA3E42A9E3048005E8311 /* photo-1549833284-6a7df91c1f65.jpg */,
+				585FA3C22A9D19D8005E8311 /* Marcato.entitlements */,
+				585FA3BF2A9D19D8005E8311 /* Preview Content */,
+			);
+			path = Marcato;
+			sourceTree = "<group>";
+		};
+		585FA3BF2A9D19D8005E8311 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				585FA3C02A9D19D8005E8311 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		585FA3CA2A9D19D8005E8311 /* MarcatoTests */ = {
+			isa = PBXGroup;
+			children = (
+				585FA3CB2A9D19D8005E8311 /* MarcatoTests.swift */,
+			);
+			path = MarcatoTests;
+			sourceTree = "<group>";
+		};
+		585FA3D42A9D19D8005E8311 /* MarcatoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				585FA3D52A9D19D8005E8311 /* MarcatoUITests.swift */,
+				585FA3D72A9D19D8005E8311 /* MarcatoUITestsLaunchTests.swift */,
+			);
+			path = MarcatoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		585FA3B52A9D19D7005E8311 /* Marcato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585FA3DB2A9D19D8005E8311 /* Build configuration list for PBXNativeTarget "Marcato" */;
+			buildPhases = (
+				585FA3B22A9D19D7005E8311 /* Sources */,
+				585FA3B32A9D19D7005E8311 /* Frameworks */,
+				585FA3B42A9D19D7005E8311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Marcato;
+			productName = Marcato;
+			productReference = 585FA3B62A9D19D7005E8311 /* Marcato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		585FA3C62A9D19D8005E8311 /* MarcatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585FA3DE2A9D19D8005E8311 /* Build configuration list for PBXNativeTarget "MarcatoTests" */;
+			buildPhases = (
+				585FA3C32A9D19D8005E8311 /* Sources */,
+				585FA3C42A9D19D8005E8311 /* Frameworks */,
+				585FA3C52A9D19D8005E8311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585FA3C92A9D19D8005E8311 /* PBXTargetDependency */,
+			);
+			name = MarcatoTests;
+			productName = MarcatoTests;
+			productReference = 585FA3C72A9D19D8005E8311 /* MarcatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		585FA3D02A9D19D8005E8311 /* MarcatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585FA3E12A9D19D8005E8311 /* Build configuration list for PBXNativeTarget "MarcatoUITests" */;
+			buildPhases = (
+				585FA3CD2A9D19D8005E8311 /* Sources */,
+				585FA3CE2A9D19D8005E8311 /* Frameworks */,
+				585FA3CF2A9D19D8005E8311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				585FA3D32A9D19D8005E8311 /* PBXTargetDependency */,
+			);
+			name = MarcatoUITests;
+			productName = MarcatoUITests;
+			productReference = 585FA3D12A9D19D8005E8311 /* MarcatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		585FA3AE2A9D19D7005E8311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					585FA3B52A9D19D7005E8311 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					585FA3C62A9D19D8005E8311 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 585FA3B52A9D19D7005E8311;
+					};
+					585FA3D02A9D19D8005E8311 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 585FA3B52A9D19D7005E8311;
+					};
+				};
+			};
+			buildConfigurationList = 585FA3B12A9D19D7005E8311 /* Build configuration list for PBXProject "Marcato" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 585FA3AD2A9D19D7005E8311;
+			productRefGroup = 585FA3B72A9D19D7005E8311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				585FA3B52A9D19D7005E8311 /* Marcato */,
+				585FA3C62A9D19D8005E8311 /* MarcatoTests */,
+				585FA3D02A9D19D8005E8311 /* MarcatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		585FA3B42A9D19D7005E8311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585FA3C12A9D19D8005E8311 /* Preview Assets.xcassets in Resources */,
+				585FA3BE2A9D19D8005E8311 /* Assets.xcassets in Resources */,
+				585FA3E52A9E3048005E8311 /* photo-1549833284-6a7df91c1f65.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585FA3C52A9D19D8005E8311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585FA3CF2A9D19D8005E8311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		585FA3B22A9D19D7005E8311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585FA3BA2A9D19D7005E8311 /* MarcatoApp.swift in Sources */,
+				585FA3EA2AA0D56E005E8311 /* UIColor.swift in Sources */,
+				585FA3E82AA002A2005E8311 /* Constants.swift in Sources */,
+				585FA3EC2AA11194005E8311 /* NotificationBannerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585FA3C32A9D19D8005E8311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585FA3CC2A9D19D8005E8311 /* MarcatoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		585FA3CD2A9D19D8005E8311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585FA3D82A9D19D8005E8311 /* MarcatoUITestsLaunchTests.swift in Sources */,
+				585FA3D62A9D19D8005E8311 /* MarcatoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		585FA3C92A9D19D8005E8311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585FA3B52A9D19D7005E8311 /* Marcato */;
+			targetProxy = 585FA3C82A9D19D8005E8311 /* PBXContainerItemProxy */;
+		};
+		585FA3D32A9D19D8005E8311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 585FA3B52A9D19D7005E8311 /* Marcato */;
+			targetProxy = 585FA3D22A9D19D8005E8311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		585FA3D92A9D19D8005E8311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		585FA3DA2A9D19D8005E8311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		585FA3DC2A9D19D8005E8311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Marcato/Marcato.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Marcato/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Marcato/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pocketrice.Marcato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		585FA3DD2A9D19D8005E8311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Marcato/Marcato.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Marcato/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Marcato/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pocketrice.Marcato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		585FA3DF2A9D19D8005E8311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pocketrice.MarcatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marcato.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Marcato";
+			};
+			name = Debug;
+		};
+		585FA3E02A9D19D8005E8311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pocketrice.MarcatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marcato.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Marcato";
+			};
+			name = Release;
+		};
+		585FA3E22A9D19D8005E8311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pocketrice.MarcatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Marcato;
+			};
+			name = Debug;
+		};
+		585FA3E32A9D19D8005E8311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pocketrice.MarcatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Marcato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		585FA3B12A9D19D7005E8311 /* Build configuration list for PBXProject "Marcato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585FA3D92A9D19D8005E8311 /* Debug */,
+				585FA3DA2A9D19D8005E8311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585FA3DB2A9D19D8005E8311 /* Build configuration list for PBXNativeTarget "Marcato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585FA3DC2A9D19D8005E8311 /* Debug */,
+				585FA3DD2A9D19D8005E8311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585FA3DE2A9D19D8005E8311 /* Build configuration list for PBXNativeTarget "MarcatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585FA3DF2A9D19D8005E8311 /* Debug */,
+				585FA3E02A9D19D8005E8311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585FA3E12A9D19D8005E8311 /* Build configuration list for PBXNativeTarget "MarcatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				585FA3E22A9D19D8005E8311 /* Debug */,
+				585FA3E32A9D19D8005E8311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 585FA3AE2A9D19D7005E8311 /* Project object */;
+}
