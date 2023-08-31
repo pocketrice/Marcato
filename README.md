@@ -1,2 +1,2 @@
 # Marcato
-Lightweight Mac app and Firefox extension for Youtube audio controls, with a retro flair.
+Lightweight MacOS menubar app for web audio streaming, with a retro flair. 
